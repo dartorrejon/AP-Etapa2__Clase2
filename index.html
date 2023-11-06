@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora Básica</h1>
+    </header>
+    <main>
+        <form action="#">
+            <section id="numeros">
+                <input type="number" name="nro1" id="nro1" placeholder="N°1">
+                <span class="signo"></span>
+                <input type="number" name="nro2" id="nro2" placeholder="N°2">
+            </section>
+
+            <section id="operaciones">
+                <button class="operacion operacion-suma">+</button>
+                <button class="operacion operacion-resta">-</button>
+                <button class="operacion operacion-multi">*</button>
+                <button class="operacion operacion-division">/</button>
+            </section>
+
+            <textarea name="resultado" id="resultado" cols="30" rows="3" placeholder="Resultado"></textarea>
+        </form>
+    </main>
+
+
+    <footer>
+        <p>&copy 2023 All Rights Reserved</p>
+    </footer>
+
+<script src="scripts/operaciones.js"></script>
+</body>
+
+</html>
